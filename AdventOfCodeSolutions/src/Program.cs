@@ -9,7 +9,7 @@ namespace AdventOfCodeSolutions
         {
             var inputFilesFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             var content = File.ReadAllText(Path.Combine(inputFilesFolder, "inputDayOne.txt"));
-            var result = new DayOne().Solve(content);
+            var result = new DayOneAdv().Solve(content);
             Console.WriteLine("Result is: "+result);
         }
     }
