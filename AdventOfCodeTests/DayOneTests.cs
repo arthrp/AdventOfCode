@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace AdventOfCodeTests
 {
-    public class Tests
+    public class DayOneTests
     {
         [SetUp]
         public void Setup()

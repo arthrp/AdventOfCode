@@ -8,8 +8,8 @@ namespace AdventOfCodeSolutions
         static void Main(string[] args)
         {
             var inputFilesFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            var content = File.ReadAllText(Path.Combine(inputFilesFolder, "inputDayOne.txt"));
-            var result = new DayOneAdv().Solve(content);
+            var content = File.ReadAllText(Path.Combine(inputFilesFolder, "input2.txt"));
+            var result = new DayTwo().Solve(content, true);
             Console.WriteLine("Result is: "+result);
         }
     }
